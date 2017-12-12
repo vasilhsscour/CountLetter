@@ -13,14 +13,14 @@ public class CountLetters {
         CounterWorker count = new CounterWorker(lines); // creates an instance of class CountLetters
 
         long startTime = System.nanoTime(); // starts counting the time of execution of the program
-        Thread mThread = new Thread(count); // creates a Thread with the runnable CountLetters
-        mThread.start(); // run the method "run" from class CountLetters
+//        Thread mThread = new Thread(count); // creates a Thread with the runnable CountLetters
+//        mThread.start(); // run the method "run" from class CountLetters
 
         count.run();
 
 
-        while (mThread.isAlive()) { // running until stop the Thread
-        }
+//        while (mThread.isAlive()) { // running until stop the Thread
+//        }
         long endTime = System.nanoTime(); // stops counts the time of execution of the program
         long totalTime = endTime - startTime; // count the total time
 
