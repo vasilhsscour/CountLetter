@@ -17,7 +17,7 @@ public class TakeFile {
     private Scanner fileScanner; // creates a file
 
     public TakeFile() throws MalformedURLException, IOException {
-        this.fileScanner = new Scanner(new File("RC_2008-07"));
+        this.fileScanner = new Scanner(new File("RC_2008-07.txt"));
 
     }
     public ArrayList<String> TakeLines() throws IOException {
